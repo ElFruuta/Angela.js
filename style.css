@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul {
+    list-style: none;
+}
+.arriba {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(190, 190, 190);
+    align-items: center;
+    padding: 1vw 0vw 1vw 0vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.buscar {
+    width: 35vw;
+    padding: 0.6vw;
+    border: 0.4vw solid black;
+}
+
+.button {
+    color: #fff;
+    background-color: rgb(90, 90, 255);
+    padding: 0.4vw 1vw 0.4vw 1vw;
+    border: 0.4vw solid #000000;
+    box-shadow: 0.5vw 0.4vw 0vw 0vw #000000;
+}
+.button2 {
+    color: black;
+    background-color: rgb(255, 230, 90);
+    padding: 0.4vw 1vw 0.4vw 1vw;
+    border: 0.4vw solid #000000;
+    box-shadow: 0.5vw 0.4vw 0vw 0vw #000000;
+}
+.button3 {
+    color: black;
+    background-color: rgb(96, 184, 64);
+    padding: 0.4vw 1vw 0.4vw 1vw;
+    border: 0.4vw solid #000000;
+    box-shadow: 0.5vw 0.4vw 0vw 0vw #000000;
+}
+.contenedor-padre {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+.dos-tercios {
+    flex: 3;
+}
+.un-tercio {
+    flex: 1;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    margin-block-end: 10vw;
+    padding: 1vw;
+}
+.un-tercio,.dos-tercios, .hola {
+    margin-top: 3vw;
+    border: 0.4vw solid black;
+}
+
+.ul-dos {
+    display: flex;
+    align-items: center;
+}
+.a, .a2 {
+    margin: 4vw;
+}
+.a2 {
+    display: flex;
+    flex-direction: column;
+}
+.a2 * {
+    margin: 0.4vw;
+}
+.a2 em {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+.hola {
+    width: 70.5%;
+    margin: 0;
+    margin-top: 3vw;
+}
