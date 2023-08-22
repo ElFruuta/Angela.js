@@ -13,41 +13,40 @@
     <div class="arriba">
         <h1>Dojonary</h1>
         <input class="buscar" type="text" placeholder="Search">
-        <button class="button" onclick="mostrarMensaje('Ninja was liked')">login</button>
+        <button class="button" onclick="turnlogout(this)">login</button>
     </div>
     <div class="contenedor-padre">
         <div class="dos-tercios">
             <ul class="ul-dos">
                 <li class="a2">
                     <h1>ninja</h1><em>noun</em>
-                    <p>plural:ninjas</p><button class="button2">13 likes</button>
+                    <p>plural:ninjas</p><button onclick="like('Ninja was liked')" class="button2">13 likes</button>
                 </li>
                 <li class="a">
-                    <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                    <p class="bb">A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a>
+                    </p>
                 </li>
             </ul>
         </div>
         <div class="un-tercio">
-            <h3>Dojonary is defined by <h2>YOU</h4></h4><button class="button3">Add Definition</button></div>
+            <h3>Dojonary is defined by<h2>YOU</h2></h3>
+                </h4><button onclick="eliminar(this)" class="button3">Add Definition</button>
         </div>
+    </div>
     </div>
     <div class="contenedor-padre">
         <div class="hola">
             <ul class="ul-dos">
                 <li class="a2">
                     <h1>ninja</h1><em>noun</em>
-                    <p>plural:ninjas</p><button class="button2">13 likes</button>
+                    <p>plural:ninjas</p><button onclick="like('Ninja was liked')" class="button2">13 likes</button>
                 </li>
                 <li class="a">
-                    <p>A <a href="">Programmer</a> who bracks down problems with <a href="">zen-</a>like focus</p>
+                    <p class="bb">A <a href="">Programmer</a> who bracks down problems with <a href="">zen-</a>like focus</p>
                 </li>
             </ul>
         </div>
     </div>
-    <button onclick="example(this)">
-        Hazme clic
-    </button>
-    
     <script src="script.js"></script>
 </body>
 
